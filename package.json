@@ -1,7 +1,7 @@
 {
   "name": "tictactoe",
   "version": "0.1.0",
-  "description": "",
+  "description": "The default template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).",
   "scripts": {
     "start": "parcel index.html",
     "build": "npm run clear && parcel build index.html",
@@ -12,25 +12,37 @@
   },
   "license": "MIT",
   "dependencies": {
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.6",
     "babel-eslint": "^10.1.0",
     "babel-preset-nano-react-app": "^0.1.0",
-    "eslint": "^7.28.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.24.0",
-    "parcel": "^2.0.0-alpha.3.2",
-    "prettier": "^2.3.1",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "parcel": "^1.12.4",
+    "prettier": "^2.0.5",
     "rimraf": "^3.0.2"
   },
   "babel": {
     "presets": [
       "nano-react-app"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaurav-151/tictactoe.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Gaurav-151/tictactoe/issues"
+  },
+  "homepage": "https://github.com/Gaurav-151/tictactoe#readme"
 }
